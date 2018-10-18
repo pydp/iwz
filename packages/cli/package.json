@@ -1,7 +1,7 @@
 {
   "name": "@kpub/cli",
   "version": "0.0.1",
-  "description": "kpub cli",
+  "description": "kpub cli for pydp",
   "keywords": [
     "kpub",
     "cli",

@@ -3,6 +3,9 @@
 process.title = 'iwz'
 
 const program = require('commander')
+const init = require('@iwz/init')
+// const build = require('@iwz/build')
+const publish = require('@iwz/publish')
 
 // program
 //   .command('rm <dir>')
@@ -18,9 +21,55 @@ const program = require('commander')
 //     console.log('init ' + dir + (cmd.tpl ? cmd.tpl : ''))
 //   })
 
-require('./iwz-init')
-require('./iwz-build')
-require('./iwz-publish')
+/**
+ * init
+ */
+program
+  .command('init')
+  .description('初始化项目')
+  .alias('i')
+  .action(function(cmd) {
+    init(cmd)
+  })
+
+/*
+example:
+(1) 指定项目名、版本号
+iwz init kline 1.0
+
+(2) 同时指定项目目录
+iwz init kline 1.0 -d award/kline/1.0
+*/
+
+// require('./iwz-build')
+
+/**
+ * build
+ */
+program
+  .command('build')
+  .description('开发产出文件')
+  .option('-w, --watch', 'watch files change')
+  .option('-t, --type <type>', 'file type')
+  .alias('b')
+  .action(function(cmd) {
+    console.log('build')
+    // build(cmd)
+  })
+
+/**
+ * publish
+ */
+program
+  .command('publish <appVerion>')
+  .description('发布产出')
+  .option('-v, --version <version>', 'publish version')
+  .option('-t, --type <type>', 'file type')
+  .option('-h, --hash <hash>', 'hash length')
+  .alias('p')
+  .action(function(appVerion, cmd) {
+    publish(appVerion, cmd)
+  })
 
 // example 1
 // program

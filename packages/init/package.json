@@ -1,6 +1,6 @@
 {
   "name": "@iwz/init",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "iwz init command",
   "keywords": [
     "iwz",
@@ -10,7 +10,7 @@
   "author": "LEI <scriptpower@qq.com>",
   "homepage": "https://github.com/pydp/iwz",
   "license": "MIT",
-  "main": "yes",
+  "main": "lib/init.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -30,5 +30,10 @@
   },
   "bugs": {
     "url": "https://github.com/pydp/iwz/issues"
+  },
+  "dependencies": {
+    "inquirer": "^5.2.0",
+    "fs-extra": "^6.0.1",
+    "@iwz/utils": "^0.0.2"
   }
 }

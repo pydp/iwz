@@ -38,8 +38,8 @@ package-lock.json
 .node_repl_history
 
 # generated files
-lib
-esm
+## lib
+## esm
 .tmp
 *.tgz
 

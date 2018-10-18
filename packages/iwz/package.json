@@ -12,9 +12,9 @@
   "author": "lei",
   "license": "ISC",
   "dependencies": {
-    "chalk": "^2.4.1",
     "commander": "^2.15.1",
-    "fs-extra": "^6.0.1",
-    "inquirer": "^5.2.0"
+    "@iwz/utils": "^0.0.2",
+    "@iwz/init": "^0.0.2",
+    "@iwz/publish": "^0.0.2"
   }
 }

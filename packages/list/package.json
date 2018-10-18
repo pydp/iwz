@@ -1,0 +1,35 @@
+{
+  "name": "@kpub/list",
+  "version": "0.0.0",
+  "description": "kpub list command",
+  "keywords": [
+    "kpub",
+    "list",
+    "command",
+    "publish"
+  ],
+  "author": "LEI <scriptpower@qq.com>",
+  "homepage": "https://github.com/pydp/kpub",
+  "license": "MIT",
+  "main": "lib/list.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pydp/kpub.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/pydp/kpub/issues"
+  }
+}

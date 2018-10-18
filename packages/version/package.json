@@ -1,6 +1,6 @@
 {
   "name": "@iwz/version",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "iwz version command",
   "keywords": [
     "iwz",

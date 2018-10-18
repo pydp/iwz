@@ -1,6 +1,6 @@
 {
   "name": "@iwz/cli",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "iwz cli for pydp",
   "keywords": [
     "iwz",

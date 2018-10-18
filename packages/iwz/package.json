@@ -14,7 +14,7 @@
   "dependencies": {
     "@iwz/init": "^0.0.3",
     "@iwz/publish": "^0.0.3",
-    "@iwz/utils": "^0.0.3",
+    "@iwz/utils": "^0.0.4",
     "commander": "^2.15.1"
   }
 }

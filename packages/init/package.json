@@ -32,7 +32,7 @@
     "url": "https://github.com/pydp/iwz/issues"
   },
   "dependencies": {
-    "@iwz/utils": "^0.0.3",
+    "@iwz/utils": "^0.0.4",
     "fs-extra": "^6.0.1",
     "inquirer": "^5.2.0"
   }

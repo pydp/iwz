@@ -3,9 +3,13 @@
 process.title = 'iwz'
 
 const program = require('commander')
+const Utils = require('@iwz/utils')
 const init = require('@iwz/init')
 // const build = require('@iwz/build')
 const publish = require('@iwz/publish')
+
+const cmdName = process.argv[2]
+// Utils.logYellow(process.argv)
 
 // program
 //   .command('rm <dir>')
@@ -24,13 +28,15 @@ const publish = require('@iwz/publish')
 /**
  * init
  */
-program
-  .command('init')
-  .description('初始化项目')
-  .alias('i')
-  .action(function(cmd) {
-    init(cmd)
-  })
+if (cmdName === 'init') {
+  program
+    .command('init')
+    .description('初始化项目')
+    .alias('i')
+    .action(function(cmd) {
+      init(cmd)
+    })
+}
 
 /*
 example:
@@ -46,30 +52,34 @@ iwz init kline 1.0 -d award/kline/1.0
 /**
  * build
  */
-program
-  .command('build')
-  .description('开发产出文件')
-  .option('-w, --watch', 'watch files change')
-  .option('-t, --type <type>', 'file type')
-  .alias('b')
-  .action(function(cmd) {
-    console.log('build')
-    // build(cmd)
-  })
+if (cmdName === 'build') {
+  program
+    .command('build')
+    .description('开发产出文件')
+    .option('-w, --watch', 'watch files change')
+    .option('-t, --type <type>', 'file type')
+    .alias('b')
+    .action(function(cmd) {
+      console.log('build')
+      // build(cmd)
+    })
+}
 
 /**
  * publish
  */
-program
-  .command('publish <appVerion>')
-  .description('发布产出')
-  .option('-v, --version <version>', 'publish version')
-  .option('-t, --type <type>', 'file type')
-  .option('-h, --hash <hash>', 'hash length')
-  .alias('p')
-  .action(function(appVerion, cmd) {
-    publish(appVerion, cmd)
-  })
+if (cmdName === 'publish') {
+  program
+    .command('publish <appVerion>')
+    .description('发布产出')
+    .option('-v, --version <version>', 'publish version')
+    .option('-t, --type <type>', 'file type')
+    .option('-h, --hash <hash>', 'hash length')
+    .alias('p')
+    .action(function(appVerion, cmd) {
+      publish(appVerion, cmd)
+    })
+}
 
 // example 1
 // program

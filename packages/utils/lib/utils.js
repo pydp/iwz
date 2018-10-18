@@ -38,7 +38,7 @@ const colorLog = colorName => {
       ? chalk[colorName]
       : chalk.red
   return it => {
-    const msg = isObjectLike(it) ? `${JSON.stringify(it, null, 2)}` : `it`
+    const msg = isObjectLike(it) ? `${JSON.stringify(it, null, 2)}` : `${it}`
     console.log(`${color(msg)}`)
   }
 }
@@ -98,6 +98,6 @@ Utils.getPaths = () => ({
   cwd: process.cwd()
 })
 
-Utils.logWarn(Utils.getPaths())
+// Utils.logWarn(Utils.getPaths())
 
 module.exports = Utils

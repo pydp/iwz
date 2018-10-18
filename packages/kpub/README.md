@@ -1,11 +1,11 @@
-# `@kpub/cli`
+# `kpub`
 
 > TODO: description
 
 ## Usage
 
 ```
-const cli = require('@kpub/cli');
+const kpub = require('kpub');
 
 // TODO: DEMONSTRATE API
 ```

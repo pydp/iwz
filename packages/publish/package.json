@@ -1,6 +1,6 @@
 {
   "name": "@iwz/publish",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "iwz publish command",
   "keywords": [
     "iwz",
@@ -31,7 +31,7 @@
     "url": "https://github.com/pydp/iwz/issues"
   },
   "dependencies": {
-    "fs-extra": "^6.0.1",
-    "@iwz/utils": "^0.0.2"
+    "@iwz/utils": "^0.0.3",
+    "fs-extra": "^6.0.1"
   }
 }

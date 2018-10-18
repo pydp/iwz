@@ -1,6 +1,6 @@
 {
   "name": "iwz",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "iwz command line",
   "bin": {
     "iwz": "./bin/iwz.js"

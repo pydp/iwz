@@ -1,0 +1,20 @@
+{
+  "name": "iwz",
+  "version": "0.0.2",
+  "description": "iwz command line",
+  "bin": {
+    "iwz": "./bin/iwz.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lei",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.15.1",
+    "fs-extra": "^6.0.1",
+    "inquirer": "^5.2.0"
+  }
+}

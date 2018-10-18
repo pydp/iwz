@@ -1,0 +1,30 @@
+{
+  "name": "kpub",
+  "version": "0.0.0",
+  "description": "king publish",
+  "keywords": [
+    "king",
+    "publish"
+  ],
+  "author": "LEI <scriptpower@qq.com>",
+  "homepage": "https://github.com/pydp/kpub",
+  "license": "MIT",
+  "main": "lib/kpub.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pydp/kpub.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/pydp/kpub/issues"
+  }
+}

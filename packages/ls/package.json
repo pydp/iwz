@@ -1,9 +1,10 @@
 {
-  "name": "@iwz/list",
+  "name": "@iwz/ls",
   "version": "0.0.1",
-  "description": "iwz list command",
+  "description": "iwz ls command",
   "keywords": [
     "iwz",
+    "ls",
     "list",
     "command",
     "publish"
@@ -11,7 +12,7 @@
   "author": "LEI <scriptpower@qq.com>",
   "homepage": "https://github.com/pydp/iwz",
   "license": "MIT",
-  "main": "lib/list.js",
+  "main": "lib/ls.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"

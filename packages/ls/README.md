@@ -1,11 +1,11 @@
-# `@iwz/list`
+# `@iwz/ls`
 
 > TODO: description
 
 ## Usage
 
 ```
-const list = require('@iwz/list');
+const ls = require('@iwz/ls');
 
 // TODO: DEMONSTRATE API
 ```

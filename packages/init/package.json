@@ -1,6 +1,6 @@
 {
   "name": "@iwz/init",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "iwz init command",
   "keywords": [
     "iwz",
@@ -32,7 +32,7 @@
     "url": "https://github.com/pydp/iwz/issues"
   },
   "dependencies": {
-    "@iwz/utils": "^0.0.4",
+    "@iwz/utils": "^0.0.5",
     "fs-extra": "^6.0.1",
     "inquirer": "^5.2.0"
   }

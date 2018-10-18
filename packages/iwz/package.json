@@ -1,6 +1,6 @@
 {
   "name": "iwz",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "iwz command line",
   "bin": {
     "iwz": "./bin/iwz.js"
@@ -12,9 +12,9 @@
   "author": "lei",
   "license": "ISC",
   "dependencies": {
-    "@iwz/init": "^0.0.3",
-    "@iwz/publish": "^0.0.3",
-    "@iwz/utils": "^0.0.4",
+    "@iwz/init": "^0.0.4",
+    "@iwz/publish": "^0.0.4",
+    "@iwz/utils": "^0.0.5",
     "commander": "^2.15.1"
   }
 }

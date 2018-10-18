@@ -1,6 +1,6 @@
 {
   "name": "@iwz/build",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "iwz build command",
   "keywords": [
     "iwz",
@@ -31,7 +31,7 @@
     "url": "https://github.com/pydp/iwz/issues"
   },
   "dependencies": {
-    "@iwz/utils": "^0.0.4",
+    "@iwz/utils": "^0.0.5",
     "fs-extra": "^6.0.1"
   }
 }

@@ -1,14 +1,14 @@
 {
-  "name": "@kpub/init",
+  "name": "@iwz/init",
   "version": "0.0.1",
-  "description": "kpub init command",
+  "description": "iwz init command",
   "keywords": [
-    "kpub",
+    "iwz",
     "init",
     "publish"
   ],
   "author": "LEI <scriptpower@qq.com>",
-  "homepage": "https://github.com/pydp/kpub",
+  "homepage": "https://github.com/pydp/iwz",
   "license": "MIT",
   "main": "yes",
   "directories": {
@@ -23,12 +23,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pydp/kpub.git"
+    "url": "git+https://github.com/pydp/iwz.git"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
-    "url": "https://github.com/pydp/kpub/issues"
+    "url": "https://github.com/pydp/iwz/issues"
   }
 }

@@ -1,11 +1,11 @@
-# `@kpub/publish`
+# `@iwz/publish`
 
 > TODO: description
 
 ## Usage
 
 ```
-const publish = require('@kpub/publish');
+const publish = require('@iwz/publish');
 
 // TODO: DEMONSTRATE API
 ```

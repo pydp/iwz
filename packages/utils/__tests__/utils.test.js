@@ -2,6 +2,6 @@
 
 const utils = require('..');
 
-describe('@kpub/utils', () => {
+describe('@iwz/utils', () => {
     it('needs tests');
 });

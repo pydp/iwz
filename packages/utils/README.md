@@ -1,11 +1,11 @@
-# `@kpub/utils`
+# `@iwz/utils`
 
 > TODO: description
 
 ## Usage
 
 ```
-const utils = require('@kpub/utils');
+const utils = require('@iwz/utils');
 
 // TODO: DEMONSTRATE API
 ```

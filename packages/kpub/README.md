@@ -1,11 +1,11 @@
-# `kpub`
+# `iwz`
 
 > TODO: description
 
 ## Usage
 
 ```
-const kpub = require('kpub');
+const iwz = require('iwz');
 
 // TODO: DEMONSTRATE API
 ```

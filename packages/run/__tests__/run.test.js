@@ -2,6 +2,6 @@
 
 const run = require('..');
 
-describe('@kpub/run', () => {
+describe('@iwz/run', () => {
     it('needs tests');
 });

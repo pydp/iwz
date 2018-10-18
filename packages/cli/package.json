@@ -1,14 +1,14 @@
 {
-  "name": "@kpub/cli",
+  "name": "@iwz/cli",
   "version": "0.0.2",
-  "description": "kpub cli for pydp",
+  "description": "iwz cli for pydp",
   "keywords": [
-    "kpub",
+    "iwz",
     "cli",
     "publish"
   ],
   "author": "LEI <scriptpower@qq.com>",
-  "homepage": "https://github.com/pydp/kpub",
+  "homepage": "https://github.com/pydp/iwz",
   "license": "MIT",
   "main": "lib/cli.js",
   "directories": {
@@ -23,12 +23,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pydp/kpub.git"
+    "url": "git+https://github.com/pydp/iwz.git"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
-    "url": "https://github.com/pydp/kpub/issues"
-  }
+    "url": "https://github.com/pydp/iwz/issues"
+  },
+  "gitHead": "c2f2a8e25f5fff9b164223f4ecb02843bd883e47"
 }

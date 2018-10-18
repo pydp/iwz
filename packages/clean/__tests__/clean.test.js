@@ -2,6 +2,6 @@
 
 const clean = require('..');
 
-describe('@kpub/clean', () => {
+describe('@iwz/clean', () => {
     it('needs tests');
 });

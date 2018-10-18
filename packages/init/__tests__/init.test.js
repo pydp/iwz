@@ -2,6 +2,6 @@
 
 const init = require('..');
 
-describe('@kpub/init', () => {
+describe('@iwz/init', () => {
     it('needs tests');
 });

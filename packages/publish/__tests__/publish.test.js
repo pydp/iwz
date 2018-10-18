@@ -2,6 +2,6 @@
 
 const publish = require('..');
 
-describe('@kpub/publish', () => {
+describe('@iwz/publish', () => {
     it('needs tests');
 });

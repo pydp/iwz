@@ -2,6 +2,6 @@
 
 const cli = require('..');
 
-describe('@kpub/cli', () => {
+describe('@iwz/cli', () => {
     it('needs tests');
 });

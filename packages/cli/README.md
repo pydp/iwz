@@ -1,11 +1,11 @@
-# `@kpub/cli`
+# `@iwz/cli`
 
 > TODO: description
 
 ## Usage
 
 ```
-const cli = require('@kpub/cli');
+const cli = require('@iwz/cli');
 
 // TODO: DEMONSTRATE API
 ```

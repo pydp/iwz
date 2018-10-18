@@ -1,15 +1,15 @@
 {
-  "name": "@kpub/clean",
+  "name": "@iwz/clean",
   "version": "0.0.1",
-  "description": "kpub clean command",
+  "description": "iwz clean command",
   "keywords": [
-    "kpub",
+    "iwz",
     "clean",
     "command",
     "publish"
   ],
   "author": "LEI <scriptpower@qq.com>",
-  "homepage": "https://github.com/pydp/kpub",
+  "homepage": "https://github.com/pydp/iwz",
   "license": "MIT",
   "main": "lib/clean.js",
   "directories": {
@@ -24,12 +24,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pydp/kpub.git"
+    "url": "git+https://github.com/pydp/iwz.git"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
-    "url": "https://github.com/pydp/kpub/issues"
+    "url": "https://github.com/pydp/iwz/issues"
   }
 }

@@ -2,6 +2,6 @@
 
 const version = require('..');
 
-describe('@kpub/version', () => {
+describe('@iwz/version', () => {
     it('needs tests');
 });

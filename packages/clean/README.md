@@ -1,11 +1,11 @@
-# `@kpub/clean`
+# `@iwz/clean`
 
 > TODO: description
 
 ## Usage
 
 ```
-const clean = require('@kpub/clean');
+const clean = require('@iwz/clean');
 
 // TODO: DEMONSTRATE API
 ```

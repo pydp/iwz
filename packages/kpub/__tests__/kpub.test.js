@@ -1,7 +1,7 @@
 'use strict';
 
-const kpub = require('..');
+const iwz = require('..');
 
-describe('kpub', () => {
+describe('iwz', () => {
     it('needs tests');
 });

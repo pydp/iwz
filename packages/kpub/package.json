@@ -1,5 +1,5 @@
 {
-  "name": "kpub",
+  "name": "iwz",
   "version": "0.0.2",
   "description": "king publish",
   "keywords": [
@@ -7,9 +7,9 @@
     "publish"
   ],
   "author": "LEI <scriptpower@qq.com>",
-  "homepage": "https://github.com/pydp/kpub",
+  "homepage": "https://github.com/pydp/iwz",
   "license": "MIT",
-  "main": "lib/kpub.js",
+  "main": "lib/iwz.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -19,12 +19,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pydp/kpub.git"
+    "url": "git+https://github.com/pydp/iwz.git"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
-    "url": "https://github.com/pydp/kpub/issues"
+    "url": "https://github.com/pydp/iwz/issues"
   }
 }

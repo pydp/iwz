@@ -1,11 +1,11 @@
-# `@kpub/list`
+# `@iwz/list`
 
 > TODO: description
 
 ## Usage
 
 ```
-const list = require('@kpub/list');
+const list = require('@iwz/list');
 
 // TODO: DEMONSTRATE API
 ```

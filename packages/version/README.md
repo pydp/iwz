@@ -1,11 +1,11 @@
-# `@kpub/version`
+# `@iwz/version`
 
 > TODO: description
 
 ## Usage
 
 ```
-const version = require('@kpub/version');
+const version = require('@iwz/version');
 
 // TODO: DEMONSTRATE API
 ```

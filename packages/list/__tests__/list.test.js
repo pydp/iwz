@@ -2,6 +2,6 @@
 
 const list = require('..');
 
-describe('@kpub/list', () => {
+describe('@iwz/list', () => {
     it('needs tests');
 });

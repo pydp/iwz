@@ -2,6 +2,6 @@
 
 const diff = require('..');
 
-describe('@kpub/diff', () => {
+describe('@iwz/diff', () => {
     it('needs tests');
 });

@@ -2,6 +2,6 @@
 
 const create = require('..');
 
-describe('@kpub/create', () => {
+describe('@iwz/create', () => {
     it('needs tests');
 });
